@@ -12,6 +12,7 @@ Or Decide on reference scale based on resolution 1920-> get smallest block size)
 Orthocrop can be found in the "Object Properties" tab. For it to appear one has to have an orthographic camera as the scene's main camera.
 
 When active it looks something like this:
+
 ![](./doc/UI_Overview.png "Ui Overview ")
 * "Crop to Active"  : Moves the camera to the active object and sets cropbox.
 * "Center Origin"   : Centers the objects origin to the bounding box's center.
@@ -59,6 +60,7 @@ Both can utilize a per object margin, which is given in blocks for ease of use.
 
 Decide on tile size or calculate the rest.
 Formula to decide resolution: 
+
 ![a](./doc/equation.svg "Equasion to Decide Variables")
 
 | variable | description|
@@ -92,10 +94,12 @@ Note: For greasepencil objects all frames are taken into account in order to gua
 
 
 ![](./doc/Apply_Scale_Rotation.png "Apply Scale")
+
 If the bounding box does not seem correct, make sure that you have applied the scale and rotation on the object.
 
 
 ![](./doc/Normal_Objects.png)
+
 You can also crop to non grease pencil objects like this basic cube right here! 
 
 
