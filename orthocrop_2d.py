@@ -94,7 +94,7 @@ def crop_to_active(context):
 
     blocksize_x = 1.0/blocks_x
     blocksize_y = 1.0/blocks_y
-    block_margin = context.object.block_margin
+    block_margin = context.active_object.block_margin
     margin_x = block_margin*blocksize_x
     margin_y = block_margin*blocksize_y
 
