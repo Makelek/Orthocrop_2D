@@ -90,7 +90,7 @@ def crop_to_active(context):
     cam_pos.xz += diff_obj_cam + diff_offset*blocksize
 
     render = context.scene.render
-    render.resolution_percentage = 100*resolution_factor
+    render.resolution_percentage = int(100.0*float(resolution_factor))
 
     blocksize_x = 1.0/blocks_x
     blocksize_y = 1.0/blocks_y
